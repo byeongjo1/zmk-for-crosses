@@ -22,6 +22,7 @@
             tapping-term-ms = <220>;
             flavor = "tap-preferred";
         };
+    };
 
     combos {
         compatible = "zmk,combos";
