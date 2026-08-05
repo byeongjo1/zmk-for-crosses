@@ -11,6 +11,55 @@
 };
 
 / {
+
+    combos {
+        compatible = "zmk,combos";
+
+        esc_del {
+            bindings = <&hm DEL ESC>;
+            key-positions = <0 1>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <9 8>;
+        };
+
+        slash_quet {
+            bindings = <&kp SLASH>;
+            key-positions = <29 28>;
+        };
+
+        win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <21 22>;
+        };
+
+        bt_layer {
+            bindings = <&mo 5>;
+            key-positions = <4 24>;
+        };
+
+        lclk_left {
+            bindings = <&mkp LCLK>;
+            key-positions = <12 11>;
+        };
+
+        mclk_left {
+            bindings = <&mkp MCLK>;
+            key-positions = <14 15>;
+        };
+
+        rclk_left {
+            bindings = <&mkp RCLK>;
+            key-positions = <13 12>;
+        };
+
+        prev_left {
+            bindings = <&mkp MB4>;
+            key-positions = <13 11>;
+        };
+    };
     
 keymap {
         compatible = "zmk,keymap";
