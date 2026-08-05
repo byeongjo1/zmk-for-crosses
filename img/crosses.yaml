@@ -148,3 +148,18 @@ layers:
   - '&mkp RCLK'
   - '&mkp LCLK'
   - '&mkp MCLK'
+combos:
+- p: [0, 1]
+  k: {t: ESC, h: DEL}
+- p: [9, 8]
+  k: BSPC
+- p: [29, 28]
+  k: /
+- p: [21, 22]
+  k: LEFT WIN
+- p: [12, 11]
+  k: '&mkp LCLK'
+- p: [14, 15]
+  k: '&mkp MCLK'
+- p: [13, 12]
+  k: '&mkp RCLK'
