@@ -59,11 +59,6 @@
             bindings = <&mkp RCLK>;
             key-positions = <13 12>;
         };
-
-        prev_left {
-            bindings = <&mkp MB4>;
-            key-positions = <13 11>;
-        };
     };
 
     keymap {
